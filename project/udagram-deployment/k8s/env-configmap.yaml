@@ -1,0 +1,13 @@
+# Might need to hardcode these
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: project-415068209779-dev
+  AWS_PROFILE: default
+  AWS_REGION: eu-west-1
+  JWT_SECRET: hello
+  POSTGRES_DB: database-1
+  POSTGRES_HOST: database-1.cqlww61hdjoh.eu-west-1.rds.amazonaws.com
+  URL: http://localhost:8100
+metadata:
+  name: env-config
